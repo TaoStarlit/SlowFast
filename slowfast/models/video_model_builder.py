@@ -141,7 +141,7 @@ class FuseFastToSlow(nn.Module):
 
 
 @MODEL_REGISTRY.register()
-class SlowFast(nn.Module):
+class SlowFast(nn.Module): # looks like here is no pretrain reset for slow-fast
     """
     SlowFast model builder for SlowFast network.
 
